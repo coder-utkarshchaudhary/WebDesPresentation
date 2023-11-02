@@ -1,0 +1,136 @@
+*{
+    box-sizing: content-box;
+    margin: 5px;
+    /* background-color: #141115; */
+}
+html{
+    background-color: #141115;
+}
+
+header, nav{
+    background-color: #141115;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    display: grid;
+}
+.tagHolder{
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+    margin-bottom: 2px;
+}
+
+.tagHolder>a{
+    text-decoration: none;
+    color: #51E5FF;
+    font-size: 20px;
+}
+
+.imageofLogo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #E77728;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.subHeadings>h3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E77728;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline double;
+
+    margin-bottom: 10px;
+}
+.subHeadings>h4{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E77728;
+    font-weight: 700;
+    text-align: center;
+
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.tempSuper{
+    display: grid;
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.whatAreLists{
+    background-color: #C6F91F;
+    font-family: 'PT Sans', sans-serif;
+
+    padding: 20px;
+    border-radius: 15px;
+}
+.whyAreListsUsed{
+    background-color: #39FF14;
+    font-family: 'PT Sans', sans-serif;
+
+    padding: 20px;
+    border-radius: 15px;
+}
+.typesOfLists{
+    background-color: #FF5F1F;
+    font-family: 'PT Sans', sans-serif;
+
+    padding: 20px;
+    border-radius: 15px;
+
+    width: 50%;
+    margin-left: 300px;
+}
+
+.unorderedList, .orderedList, .definitionList{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.picsTemp{
+    display: grid;
+    width: 900px;
+}
+
+.headingContainer{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #E77728;
+}
+.definitionOfList{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: beige;
+}
+.syntax{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.tableOfTags>table
+{
+    color: white;
+}

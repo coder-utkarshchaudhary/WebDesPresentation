@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Comprehensions</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="imageOfLogo"><img src="DTU,_Delhi_official_logo.png" alt="Logohere" height="100px" width="100px"></div>
+        <div class="holderforImageAndText">
+            <div class="heading">
+                <h1>Delhi Technological University</h1>
+            </div>
+            <div class="subHeadings">
+                <h3>CSE 103 | Web Dev Presentation |  List Comprehensions</h3>
+                <h4>Utkarsh Chaudhary 23/CS/445 and Ujjwal Kakar 23/CS/443</h4>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="tagHolder">
+            <a href="#home">Home</a>
+            <a href="#unorderedList">Unordered List</a>
+            <a href="#orderedList">Ordered List</a>
+            <a href="#definitionList">Definition List</a>
+            <a href="#ListStylingAndRelatedCss">List Styling and Properties</a>
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <!-- All the sub divs here displayed in sticky note format -->
+        <div class="tempSuper">
+            <div class="temp">
+                <div class="whatAreLists">
+                        <p><h2 style="text-align: center;">What are lists?</h2>In HTML, a list is a fundamental element used for structuring and presenting content in an organized manner. Lists allow web developers to group and display related items or information. They serve to enhance the readability and comprehension of web pages by presenting data in a systematic format. Lists typically consist of multiple items, each enclosed within list-specific tags. These items can include text, links, or other HTML elements. Lists are a versatile tool, commonly employed for creating menus, directories, or any content that benefits from a structured layout. They play a crucial role in the overall visual and structural design of web pages.</p></div>
+                    <div class="whyAreListsUsed">
+                        <p><h2 style="text-align: center;">Why are lists used?</h2>
+                            Lists in HTML are used for structuring and presenting content in an organized and easy-to-read format. Ordered lists (OL) are ideal for displaying numbered sequences, such as step-by-step instructions or rankings. Unordered lists (UL) are used for creating itemized lists, like bullet-pointed features, benefits, or options. Definition lists (DL) are valuable for defining terms and providing their corresponding explanations or descriptions. Lists are frequently utilized in navigation menus, directory structures, and content organization, enhancing the overall user experience on websites. They play a pivotal role in improving the visual and structural design of web pages, ensuring clarity and accessibility for visitors.</p></div> 
+                    </div>  
+            <div class="typesOfLists">
+                <p><h2 style="text-align: center;">Types Of Lists:</h2>HTML offers three main types of lists, each serving specific purposes:
+                    <ol>
+                        <li>Ordered List (OL)</li>
+                        <li>Unordered List (UL)</li>
+                        <li>Definition List (DL)</li>
+                    </ol>
+                    <em><strong>NOTE: The above list is made with the help of ol tags.</strong></em>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="unorderedList" id="unorderedList">
+        <div class="tempInList">
+            <div class="headingContainer"><h3>Unordered List</h3></div>
+            <div class="definitionOfList">
+                <p>An unordered list (UL) is an HTML element used to create a list of items without specifying a particular order or sequence. In an unordered list, each item is typically represented by a list item element and is displayed with a bullet point or another marker, making it suitable for presenting a collection of items where the order of appearance is not significant. Unordered lists are commonly used for organizing and structuring content in a manner that emphasizes equality among the listed items, such as creating bullet-pointed lists of features, attributes, or options on a web page.</p>
+            </div>
+            <div class="syntax">
+                <p>Example:<br>
+                    <h4>My Shopping List</h4>
+                    <ul>
+                        <li>Apples</li>
+                        <li>Bananas</li>
+                        <li>Carrots</li>
+                        <li>Milk</li>
+                        <li>Bread</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="picsTemp">
+            <div class="exampleAsCodeSnippet">
+                <img src="" alt="Code Snippet Here">
+            </div>
+            <div class="cssStylingCodeSnippet">
+                <img src="" alt="CSS1">
+            </div>
+        </div>  
+    </section>
+
+    <section class="orderedList" style="text-align: right;" id="orderedList">
+        <div class="picsTemp">
+            <div class="exampleAsCodeSnippet">
+                <img src="" alt="Code Snippet Here">
+            </div>
+            <div class="cssStylingCodeSnippet">
+                <img src="" alt="CSS1">
+            </div>
+        </div>
+        </div>
+        <div class="tempInList">
+            <div class="headingContainer"><h3>Ordered List</h3></div>
+            <div class="definitionOfList">
+                <p>An ordered list (OL) is an HTML element used to display a list of items in a specified sequence or order. Each item is enclosed within a list item tag and is numerically or alphabetically labeled. Ordered lists are commonly used for step-by-step instructions, rankings, or any content where the order of items is significant.</p>
+            </div>
+            <div class="syntax" style="text-align: left;">
+                <p>Example:<br>
+                    <h4>Chocolate Chip Cookie Recipe</h4>
+                    <ol>
+                        <li>Preheat the oven to 350°F (175°C).</li>
+                        <li>Cream together butter and sugar.</li>
+                        <li>Add eggs and vanilla extract.</li>
+                        <li>In a separate bowl, mix flour, baking soda, and salt.</li>
+                        <li>Combine wet and dry ingredients, then add chocolate chips.</li>
+                        <li>Drop spoonfuls of dough onto a baking sheet.</li>
+                        <li>Bake for 10-12 minutes or until golden brown.</li>
+                    </ol>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="definitionList" id="definitionList">
+        <div class="tempInList">
+            <div class="headingContainer"><h3>Definition List</h3></div>
+            <div class="definitionOfList">
+                <p>A definition list (DL) is an HTML element used to pair terms and their corresponding definitions. It consists of a term enclosed within a (definition term) element and its definition enclosed within a (definition description) element. Definition lists are commonly employed for glossaries, dictionaries, or explanations of technical terms.</p>
+            </div>
+            <div class="syntax">
+                <p>Example:<br>
+                    <h4>Web Development Glossary</h4>
+                    <dl>
+                        <dt>HTML</dt>
+                        <dd>HyperText Markup Language, used to structure web content.</dd>
+                        
+                        <dt>CSS</dt>
+                        <dd>Cascading Style Sheets, used for web page styling and layout.</dd>
+                        
+                        <dt>JavaScript</dt>
+                        <dd>A programming language for adding interactivity to websites.</dd>
+                    </dl>
+                </p>
+            </div>
+        </div>
+        <div class="picsTemp">
+            <div class="exampleAsCodeSnippet">
+                <img src="" alt="Code Snippet Here">
+            </div>
+            <div class="cssStylingCodeSnippet">
+                <img src="" alt="CSS1">
+            </div>
+        </div> 
+    </section>
+
+    <section class="ListStylingAndRelatedCss" id="ListStylingAndRelatedCss">
+        <div class="headingContainer"><h3>CSS Properties to style lists</h3></div>
+        <div class="tableOfTags">
+            <table>
+                <th>CSS Attribute Name</th>
+                <th>Syntax and Application</th>
+                <th>Description</th>
+                <th>Documentatio Link</th>
+            </table>
+        </div>    
+    </section>
+</body>
+</html>
